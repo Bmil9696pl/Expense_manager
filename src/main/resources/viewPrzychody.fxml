@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="338.0" prefWidth="186.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewPrzychody.ViewPrzychody">
+   <children>
+      <Button fx:id="okButton" layoutX="14.0" layoutY="297.0" mnemonicParsing="false" onAction="#okButtonAction" prefHeight="26.0" prefWidth="78.0" text="Ok" />
+      <DatePicker fx:id="datePicker" layoutX="5.0" layoutY="266.0" />
+      <TextField fx:id="tytulField" layoutX="18.0" layoutY="14.0" promptText="Tytuł" />
+      <TextField fx:id="wartoscField" layoutX="18.0" layoutY="40.0" promptText="Wartosc" />
+      <TextArea fx:id="opisField" layoutX="17.0" layoutY="66.0" prefHeight="200.0" prefWidth="150.0" promptText="Opis" />
+      <Button fx:id="usunButton" layoutX="92.0" layoutY="297.0" mnemonicParsing="false" onAction="#usunButtonAction" prefHeight="26.0" prefWidth="78.0" text="Usuń" />
+   </children>
+</AnchorPane>
